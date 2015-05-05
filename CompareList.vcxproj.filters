@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ISL">
+      <UniqueIdentifier>{1d19384b-ea22-4ee6-9972-556d57a193e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ISL\APR">
+      <UniqueIdentifier>{77f51bb2-10f4-49f4-be7a-de7f69e1452f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ISL\Image">
+      <UniqueIdentifier>{a6716738-a214-4842-ae2f-cf6917f5a133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ISL\Support">
+      <UniqueIdentifier>{7199d628-b544-4d17-b8d2-69b176a4edac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ClassificationList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ISL\ISL\APR\Calculators.cpp">
+      <Filter>ISL\APR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ISL\ISL\APR\Features.cpp">
+      <Filter>ISL\APR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ISL\ISL\APR\Particle.cpp">
+      <Filter>ISL\APR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ISL\ISL\APR\Runfile.cpp">
+      <Filter>ISL\APR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ISL\ISL\Image\BayerImage.cpp">
+      <Filter>ISL\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ISL\ISL\Image\Debayering.cpp">
+      <Filter>ISL\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ISL\ISL\Image\DirectImage.cpp">
+      <Filter>ISL\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ISL\ISL\Image\GrayscaleImage.cpp">
+      <Filter>ISL\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ISL\ISL\Image\Image_IO.cpp">
+      <Filter>ISL\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ISL\ISL\Support\Parameters.cpp">
+      <Filter>ISL\Support</Filter>
+    </ClCompile>
+    <ClCompile Include="CompareList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
